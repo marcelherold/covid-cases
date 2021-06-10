@@ -3,7 +3,10 @@ function(input, output, session) {
 
   
   
-  #Covid-Cases-ziehen
+  #Download Library
+  install.packages("readxl")
+  install.packages("httr")
+  
   library (readxl)
   library(httr)
   #library(ggplot2)
